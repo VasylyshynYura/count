@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport">
+	<title>Document</title>
+</head>
+<style>
+	body{
+		display: flex;
+		align-items: center;
+	}
+	input {
+		width: 40px;
+		height: 20px;
+		margin: 10px;
+	}
+	input[type = text]{
+		width: 50px;
+	}
+	.extra{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	button{
+		width: 100px;
+		height: 30px;
+	}
+
+</style>
+<body>
+	<div class="wrapper">
+		<div class="inputs">
+			<input type="text" id="op1">
+			<input type="select" id="op">
+			<input type="text" id="op2">
+	</div>
+	<div class="extra">
+		<button onclick="count()">Count</button>
+			<p>Результат:</p>
+				<p id="out"></p></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
